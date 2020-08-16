@@ -1,0 +1,31 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+ro.sf.lcd_density=320
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_limit=5
+ro.vendor.qti.sys.fw.bservice_age=5000
+ro.vendor.qti.am.reschedule_service=true
+sdm.perf_hint_window=30
+ro.FOREGROUND_APP_MEM=6400
+ro.VISIBLE_APP_MEM=7680
+ro.SECONDARY_SERVER_MEM=11520
+ro.BACKUP_APP_MEM=4096
+ro.HOME_APP_MEM=25600
+ro.HIDDEN_APP_MEM=21000
+ro.CONTENT_PROVIDER_MEM=35840
+ro.EMPTY_APP_MEM=38400
+ro.config.max_starting_bg=8
+ro.vendor.qti.config.zram=true
+ro.vendor.qti.config.swap=false
+ro.vendor.qti.sys.fw.bg_apps_limit=8
+ro.lmk.medium=800
+ro.lmk.critical=0
+ro.lmk.downgrade_pressure=60
+debug.sf.hw=1
+debug.egl.hw=1
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
